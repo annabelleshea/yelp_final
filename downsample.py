@@ -84,8 +84,7 @@ with open('yelp_academic_dataset_business.json', 'r') as f:
 # Step 6: Convert the business data into a DataFrame
 business_df = pd.DataFrame(business_data)
 
-import pandas as pd
-import json
+
 
 # Step 1: Load the business data
 business_data = []
